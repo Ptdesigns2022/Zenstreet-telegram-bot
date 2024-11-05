@@ -187,7 +187,7 @@ app.get('/api/checkactivity/:id', async (req, res) => {
             return res.status(404).json({ message: "User not found" }); // Return JSON for 404
         }
         
-        // res.json(user); // Return user data as JSON
+        // res.json(user); // Return user da\\\\ta as JSON
 
         res.json({
             accountAge: user.accountAge,
